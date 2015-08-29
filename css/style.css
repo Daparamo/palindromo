@@ -1,0 +1,49 @@
+body
+{	
+	background: #2E3740;
+	color: #435160;
+	font-family: "Open Sans", sans-serif;
+}
+#div
+{
+	text-align: center;
+}
+img
+{
+	cursor: pointer;
+}
+h1{	
+	text-align: center;
+	color:#1FCE6D;
+}
+input[type="text"]{
+ width: 90%;
+ padding: 20px 0px;
+ background: transparent;
+ border: 1px solid #1FCE6D;
+ border-radius: 1px , 1px 0px 0px ; 
+ outline: none;
+ color: #1FCE6D;
+ font-size: 1.5em;
+ text-align: center;
+}
+#signup .text:focus{
+	outline:0px;
+}
+input[type="button"], input[type="submit"], button{
+ background: #1FCE6D;
+ width: 80%;
+ border: 3px ;
+ height: 40px;
+ border-radius: 50px;
+ color: #fff;
+ font-size: 1.0em;
+ cursor: pointer;
+ transition: background 0.3s ease-in-out;
+}
+input[type="button"], input[type="submit"], button :hover {
+ background: #17EA72;
+ animation-name: shake;
+ border: 3px ;
+ border-radius: 50px;
+}
